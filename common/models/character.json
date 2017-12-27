@@ -1,0 +1,34 @@
+{
+  "name": "character",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "gender": {
+      "type": "String",
+      "required": true
+    },
+    "birth_date": {
+      "type": "date",
+      "required": true
+    },
+    "birth_place": {
+      "type": "string",
+      "required": true
+    },
+    "fighting_style": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
